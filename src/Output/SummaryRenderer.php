@@ -15,45 +15,39 @@ final readonly class SummaryRenderer
      */
     public function render(array $suites): void
     {
-        render(<<<'HTML'
-            <div class="my-1">
-                <div class="px-2 py-1 bg-blue">
-                    <span class="font-bold text-white">Compliance Test Suite</span>
-                </div>
-            </div>
-        HTML);
+        render('<div class="my-1"></div>');
 
         foreach ($suites as $suite) {
             $this->renderSuite($suite);
         }
-
-        render('<div class="my-1"></div>');
 
         $this->renderSummary($suites);
     }
 
     private function renderSuite(TestSuite $suite): void
     {
-        $status = $suite->failedTests() === 0 ? '✓' : '✗';
-        $statusColor = $suite->failedTests() === 0 ? 'text-green' : 'text-red';
         $passRateColor = match (true) {
             $suite->passRate() === 100.0 => 'text-green',
             $suite->passRate() >= 95.0 => 'text-yellow',
             default => 'text-red',
         };
 
+        // Calculate dots for alignment (Laravel RouteListCommand style)
+        $label = $suite->name;
+        $labelWidth = 20;
+        $dotsNeeded = max(1, $labelWidth - mb_strlen($label));
+        $dots = ' '.str_repeat('.', $dotsNeeded);
+
         render(sprintf(
             <<<'HTML'
                 <div class="mx-2">
-                    <span class="%s font-bold">%s</span>
-                    <span class="ml-1 text-white font-bold">%-20s</span>
-                    <span class="ml-2 text-cyan">%4d</span><span class="text-gray">/</span><span class="text-white">%4d tests</span>
-                    <span class="ml-2 %s font-bold">(%.1f%%)</span>
+                    <span class="text-white font-bold">%s</span><span class="text-gray">%s</span>
+                    <span class="ml-1 text-cyan">%4d</span><span class="text-gray">/</span><span class="text-white">%-4d tests</span>
+                    <span class="ml-1 %s font-bold">(%.1f%%)</span>
                 </div>
             HTML,
-            $statusColor,
-            $status,
-            $suite->name.':',
+            $label,
+            $dots,
             $suite->passedTests(),
             $suite->totalTests(),
             $passRateColor,
@@ -80,23 +74,33 @@ final readonly class SummaryRenderer
                 </div>
             HTML);
         } else {
-            render(sprintf(
-                <<<'HTML'
-                    <div class="mx-2">
-                        <div class="text-yellow font-bold">Some tests failed.</div>
-                        <div class="mt-1">
-                            <div><span class="text-gray">Total:   </span> <span class="text-white">%d tests</span></div>
-                            <div><span class="text-gray">Passed:  </span> <span class="text-green">%d tests</span></div>
-                            <div><span class="text-gray">Failed:  </span> <span class="text-red">%d tests</span></div>
-                            <div><span class="text-gray">Duration:</span> <span class="text-cyan">%.2fs</span></div>
+            // Summary with dots alignment
+            $summaryItems = [
+                ['label' => 'Total', 'value' => number_format($totalTests).' tests', 'color' => 'text-white'],
+                ['label' => 'Passed', 'value' => number_format($totalPassed).' tests', 'color' => 'text-green'],
+                ['label' => 'Failed', 'value' => number_format($totalFailed).' tests', 'color' => 'text-red'],
+                ['label' => 'Duration', 'value' => sprintf('%.2fs', $totalDuration), 'color' => 'text-cyan'],
+            ];
+
+            $totalWidth = 60;
+
+            foreach ($summaryItems as $item) {
+                $dotsNeeded = $totalWidth - mb_strlen($item['label']) - mb_strlen($item['value']) - 1;
+                $dots = ' '.str_repeat('.', max(1, $dotsNeeded));
+
+                render(sprintf(
+                    <<<'HTML'
+                        <div class="mx-2">
+                            <span class="text-gray">%s%s</span>
+                            <span class="ml-1 %s">%s</span>
                         </div>
-                    </div>
-                HTML,
-                $totalTests,
-                $totalPassed,
-                $totalFailed,
-                $totalDuration,
-            ));
+                    HTML,
+                    $item['label'],
+                    $dots,
+                    $item['color'],
+                    $item['value'],
+                ));
+            }
         }
     }
 }

@@ -189,7 +189,7 @@ vendor/bin/prism test --watch
 
 ## Next Steps
 
-- Learn about [configuration options](/prism/configuration/)
-- Explore [filtering capabilities](/prism/filtering/)
-- Discover [performance features](/prism/performance/)
-- See [advanced features](/prism/advanced-features/)
+- Learn about [configuration options](./configuration.md)
+- Explore [filtering capabilities](./filtering.md)
+- Discover [performance features](./performance.md)
+- See [advanced features](./advanced-features.md)

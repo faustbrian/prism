@@ -244,6 +244,6 @@ return [
 
 ## Next Steps
 
-- Learn about [filtering options](/prism/filtering/)
-- Explore [performance features](/prism/performance/)
-- See [output formats](/prism/output-formats/)
+- Learn about [filtering options](./filtering.md)
+- Explore [performance features](./performance.md)
+- See [output formats](./output-formats.md)

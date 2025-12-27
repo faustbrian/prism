@@ -304,7 +304,7 @@ vendor/bin/prism test --format json
 vendor/bin/prism test --format xml
 ```
 
-See [Output Formats](/prism/output-formats/) for detailed format specifications.
+See [Output Formats](./output-formats.md) for detailed format specifications.
 
 ## Combining Advanced Features
 
@@ -341,6 +341,6 @@ vendor/bin/prism test \
 
 ## Next Steps
 
-- See [output formats](/prism/output-formats/) for result formats
-- Learn about [custom assertions](/prism/custom-assertions/)
-- Explore [filtering options](/prism/filtering/)
+- See [output formats](./output-formats.md) for result formats
+- Learn about [custom assertions](./custom-assertions.md)
+- Explore [filtering options](./filtering.md)

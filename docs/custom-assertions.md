@@ -477,6 +477,6 @@ final readonly class LenientBooleanAssertion implements AssertionInterface
 
 ## Next Steps
 
-- Explore [filtering options](/prism/filtering/)
-- Learn about [performance features](/prism/performance/)
-- See [advanced features](/prism/advanced-features/)
+- Explore [filtering options](./filtering.md)
+- Learn about [performance features](./performance.md)
+- See [advanced features](./advanced-features.md)

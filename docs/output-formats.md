@@ -331,6 +331,6 @@ vendor/bin/prism test --format json | \
 
 ## Next Steps
 
-- Learn about [custom assertions](/prism/custom-assertions/)
-- Explore [filtering options](/prism/filtering/)
-- See [performance features](/prism/performance/)
+- Learn about [custom assertions](./custom-assertions.md)
+- Explore [filtering options](./filtering.md)
+- See [performance features](./performance.md)

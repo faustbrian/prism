@@ -340,6 +340,6 @@ Tests executed per second:
 
 ## Next Steps
 
-- Learn about [advanced features](/prism/advanced-features/)
-- Explore [output formats](/prism/output-formats/)
-- See [custom assertions](/prism/custom-assertions/)
+- Learn about [advanced features](./advanced-features.md)
+- Explore [output formats](./output-formats.md)
+- See [custom assertions](./custom-assertions.md)

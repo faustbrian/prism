@@ -259,6 +259,6 @@ Filters are applied in this order:
 
 ## Next Steps
 
-- Explore [performance features](/prism/performance/)
-- Learn about [advanced features](/prism/advanced-features/)
-- See [output formats](/prism/output-formats/)
+- Explore [performance features](./performance.md)
+- Learn about [advanced features](./advanced-features.md)
+- See [output formats](./output-formats.md)

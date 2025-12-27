@@ -1,8 +1,3 @@
----
-title: Advanced Features
-description: Explore advanced Prism features including snapshots, fuzzing, validator comparison, and coverage analysis.
----
-
 Prism provides advanced features for comprehensive test validation and analysis.
 
 ## Snapshot Testing

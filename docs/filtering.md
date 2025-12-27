@@ -1,8 +1,3 @@
----
-title: Filtering
-description: Filter tests by name, path, tags, and exclusion patterns.
----
-
 Prism provides powerful filtering capabilities to run specific subsets of your test suite.
 
 ## Name Filter

@@ -1,8 +1,3 @@
----
-title: Output Formats
-description: Configure test result output formats including text, JSON, and JUnit XML.
----
-
 Prism supports multiple output formats for test results, suitable for different use cases.
 
 ## Text Format (Default)

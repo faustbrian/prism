@@ -1,8 +1,3 @@
----
-title: Configuration
-description: Configure Prism test suites and execution options.
----
-
 Prism uses a `prism.php` configuration file to define test suites and validation logic.
 
 ## Configuration File Location

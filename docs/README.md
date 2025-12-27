@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Install and start using Prism for validation testing in PHP 8.5+.
----
-
 Prism is a comprehensive testing CLI for PHP 8.5+ that provides a beautiful, feature-rich interface for running validation test suites with Termwind-powered output.
 
 ## Installation

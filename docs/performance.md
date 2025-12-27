@@ -1,8 +1,3 @@
----
-title: Performance
-description: Optimize test execution with profiling, benchmarks, and parallel execution.
----
-
 Prism provides comprehensive performance features for fast test execution and performance analysis.
 
 ## Parallel Execution

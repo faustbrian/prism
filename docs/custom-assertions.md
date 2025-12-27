@@ -1,8 +1,3 @@
----
-title: Custom Assertions
-description: Create and use custom assertion logic beyond strict equality.
----
-
 Prism supports custom assertion logic through a pluggable assertion interface, enabling complex validation rules beyond simple pass/fail checks.
 
 ## AssertionInterface

@@ -21,11 +21,11 @@
         "ext-json": "*",
         "nunomaduro/termwind": "^2.3.3",
         "symfony/console": "^7.4.1",
-        "symfony/yaml": "^7.4.1",
-        "symfony/process": "^7.4.0"
+        "symfony/process": "^7.4.0",
+        "symfony/yaml": "^7.4.1"
     },
     "require-dev": {
-        "cline/coding-standard": "^1.5.8",
+        "cline/coding-standard": "^1.6.3",
         "orchestra/testbench": "^10.8",
         "symfony/var-dumper": "^7.4.0"
     },

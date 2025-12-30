@@ -5,7 +5,7 @@ All notable changes to Prism will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.6.0](https://github.com/faustbrian/prism/releases/tag/1.6.0) - 2025-12-26
+## [1.6.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.6.0) - 2025-12-26
 
 ### Added
 - Comprehensive test coverage for all services
@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Refined output renderers based on test feedback
 - Improved code quality and coverage metrics
 
-## [1.5.0](https://github.com/faustbrian/prism/releases/tag/1.5.0) - 2025-12-25
+## [1.5.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.5.0) - 2025-12-25
 
 ### Added
 - **Major Feature Release**: Advanced testing capabilities
@@ -60,13 +60,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved error handling and exceptions
 - Moved GitHub workflows directory
 
-## [1.4.0](https://github.com/faustbrian/prism/releases/tag/1.4.0) - 2025-12-25
+## [1.4.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.4.0) - 2025-12-25
 
 ### Changed
 - Minor refinements to core services
 - Code quality improvements
 
-## [1.3.0](https://github.com/faustbrian/prism/releases/tag/1.3.0) - 2025-12-25
+## [1.3.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.3.0) - 2025-12-25
 
 ### Changed
 - **Breaking**: Renamed project from "Compliance" to "Prism"
@@ -76,19 +76,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed services: `ComplianceRunner` → `PrismRunner`
 - Updated all tests and documentation to reflect new branding
 
-## [1.2.18](https://github.com/faustbrian/prism/releases/tag/1.2.18) - 2025-12-25
+## [1.2.18](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.18) - 2025-12-25
 
 ### Changed
 - Minor SummaryRenderer improvements
 
-## [1.2.17](https://github.com/faustbrian/prism/releases/tag/1.2.17) - 2025-12-25
+## [1.2.17](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.17) - 2025-12-25
 
 ### Changed
 - Refactored multiple test files
 - Updated rector configuration
 - Code style improvements
 
-## [1.2.16](https://github.com/faustbrian/prism/releases/tag/1.2.16) - 2025-12-25
+## [1.2.16](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.16) - 2025-12-25
 
 ### Added
 - Comprehensive test suite for output renderers
@@ -101,27 +101,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved output format implementations
 - Enhanced test coverage significantly
 
-## [1.2.15](https://github.com/faustbrian/prism/releases/tag/1.2.15) - 2025-12-25
+## [1.2.15](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.15) - 2025-12-25
 
 ### Changed
 - SummaryRenderer refinements
 
-## [1.2.14](https://github.com/faustbrian/prism/releases/tag/1.2.14) - 2025-12-25
+## [1.2.14](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.14) - 2025-12-25
 
 ### Changed
 - SummaryRenderer optimizations
 
-## [1.2.13](https://github.com/faustbrian/prism/releases/tag/1.2.13) - 2025-12-25
+## [1.2.13](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.13) - 2025-12-25
 
 ### Changed
 - SummaryRenderer enhancements
 
-## [1.2.12](https://github.com/faustbrian/prism/releases/tag/1.2.12) - 2025-12-25
+## [1.2.12](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.12) - 2025-12-25
 
 ### Changed
 - CiRenderer and SummaryRenderer improvements
 
-## [1.2.11](https://github.com/faustbrian/prism/releases/tag/1.2.11) - 2025-12-25
+## [1.2.11](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.11) - 2025-12-25
 
 ### Added
 - JsonRenderer for JSON output format (106 lines)
@@ -133,58 +133,58 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced TestCommand with output format options
 - Updated CiRenderer and SummaryRenderer
 
-## [1.2.10](https://github.com/faustbrian/prism/releases/tag/1.2.10) - 2025-12-25
+## [1.2.10](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.10) - 2025-12-25
 
 ### Changed
 - SummaryRenderer adjustments
 
-## [1.2.9](https://github.com/faustbrian/prism/releases/tag/1.2.9) - 2025-12-25
+## [1.2.9](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.9) - 2025-12-25
 
 ### Changed
 - SummaryRenderer tweaks
 
-## [1.2.8](https://github.com/faustbrian/prism/releases/tag/1.2.8) - 2025-12-25
+## [1.2.8](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.8) - 2025-12-25
 
 ### Changed
 - Significant SummaryRenderer enhancements (68 insertions, 28 deletions)
 
-## [1.2.7](https://github.com/faustbrian/prism/releases/tag/1.2.7) - 2025-12-25
+## [1.2.7](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.7) - 2025-12-25
 
 ### Changed
 - SummaryRenderer improvements
 
-## [1.2.6](https://github.com/faustbrian/prism/releases/tag/1.2.6) - 2025-12-25
+## [1.2.6](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.6) - 2025-12-25
 
 ### Changed
 - Minor SummaryRenderer fix
 
-## [1.2.5](https://github.com/faustbrian/prism/releases/tag/1.2.5) - 2025-12-25
+## [1.2.5](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.5) - 2025-12-25
 
 ### Changed
 - No code changes (tag only)
 
-## [1.2.4](https://github.com/faustbrian/prism/releases/tag/1.2.4) - 2025-12-25
+## [1.2.4](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.4) - 2025-12-25
 
 ### Changed
 - SummaryRenderer updates
 
-## [1.2.3](https://github.com/faustbrian/prism/releases/tag/1.2.3) - 2025-12-25
+## [1.2.3](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.3) - 2025-12-25
 
 ### Changed
 - SummaryRenderer enhancements
 
-## [1.2.2](https://github.com/faustbrian/prism/releases/tag/1.2.2) - 2025-12-25
+## [1.2.2](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.2) - 2025-12-25
 
 ### Changed
 - Test file improvements across integration and unit tests
 
-## [1.2.1](https://github.com/faustbrian/prism/releases/tag/1.2.1) - 2025-12-25
+## [1.2.1](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.1) - 2025-12-25
 
 ### Changed
 - Core service refinements
 - Test updates for ConfigLoader and ComplianceRunner
 
-## [1.2.0](https://github.com/faustbrian/prism/releases/tag/1.2.0) - 2025-12-25
+## [1.2.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.2.0) - 2025-12-25
 
 ### Changed
 - Enhanced validation and contract interfaces
@@ -192,7 +192,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated output renderers
 - Service layer improvements
 
-## [1.1.0](https://github.com/faustbrian/prism/releases/tag/1.1.0) - 2025-12-25
+## [1.1.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.1.0) - 2025-12-25
 
 ### Added
 - Exception classes:
@@ -214,7 +214,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Refined output rendering system
 - Enhanced service implementations
 
-## [1.0.0](https://github.com/faustbrian/prism/releases/tag/1.0.0) - 2025-12-25
+## [1.0.0](https://git.cline.sh/faustbrian/prism/releases/tag/1.0.0) - 2025-12-25
 
 ### Added
 - Initial release of Prism (originally named Compliance)

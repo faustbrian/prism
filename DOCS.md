@@ -1,12 +1,14 @@
 ## Table of Contents
 
-1. Overview (`docs/README.md`)
-2. Advanced Features (`docs/advanced-features.md`)
-3. Configuration (`docs/configuration.md`)
-4. Custom Assertions (`docs/custom-assertions.md`)
-5. Filtering (`docs/filtering.md`)
-6. Output Formats (`docs/output-formats.md`)
-7. Performance (`docs/performance.md`)
+1. [Overview](#doc-docs-readme) (`docs/README.md`)
+2. [Advanced Features](#doc-docs-advanced-features) (`docs/advanced-features.md`)
+3. [Configuration](#doc-docs-configuration) (`docs/configuration.md`)
+4. [Custom Assertions](#doc-docs-custom-assertions) (`docs/custom-assertions.md`)
+5. [Filtering](#doc-docs-filtering) (`docs/filtering.md`)
+6. [Output Formats](#doc-docs-output-formats) (`docs/output-formats.md`)
+7. [Performance](#doc-docs-performance) (`docs/performance.md`)
+<a id="doc-docs-readme"></a>
+
 Prism is a comprehensive testing CLI for PHP 8.5+ that provides a beautiful, feature-rich interface for running validation test suites with Termwind-powered output.
 
 ## Installation
@@ -193,10 +195,12 @@ vendor/bin/prism test --watch
 
 ## Next Steps
 
-- Learn about [configuration options](./configuration.md)
-- Explore [filtering capabilities](./filtering.md)
-- Discover [performance features](./performance.md)
-- See [advanced features](./advanced-features.md)
+- Learn about [configuration options](#doc-docs-configuration)
+- Explore [filtering capabilities](#doc-docs-filtering)
+- Discover [performance features](#doc-docs-performance)
+- See [advanced features](#doc-docs-advanced-features)
+
+<a id="doc-docs-advanced-features"></a>
 
 Prism provides advanced features for comprehensive test validation and analysis.
 
@@ -499,7 +503,7 @@ vendor/bin/prism test --format json
 vendor/bin/prism test --format xml
 ```
 
-See [Output Formats](./output-formats.md) for detailed format specifications.
+See [Output Formats](#doc-docs-output-formats) for detailed format specifications.
 
 ## Combining Advanced Features
 
@@ -536,9 +540,11 @@ vendor/bin/prism test \
 
 ## Next Steps
 
-- See [output formats](./output-formats.md) for result formats
-- Learn about [custom assertions](./custom-assertions.md)
-- Explore [filtering options](./filtering.md)
+- See [output formats](#doc-docs-output-formats) for result formats
+- Learn about [custom assertions](#doc-docs-custom-assertions)
+- Explore [filtering options](#doc-docs-filtering)
+
+<a id="doc-docs-configuration"></a>
 
 Prism uses a `prism.php` configuration file to define test suites and validation logic.
 
@@ -781,9 +787,11 @@ return [
 
 ## Next Steps
 
-- Learn about [filtering options](./filtering.md)
-- Explore [performance features](./performance.md)
-- See [output formats](./output-formats.md)
+- Learn about [filtering options](#doc-docs-filtering)
+- Explore [performance features](#doc-docs-performance)
+- See [output formats](#doc-docs-output-formats)
+
+<a id="doc-docs-custom-assertions"></a>
 
 Prism supports custom assertion logic through a pluggable assertion interface, enabling complex validation rules beyond simple pass/fail checks.
 
@@ -1259,9 +1267,11 @@ final readonly class LenientBooleanAssertion implements AssertionInterface
 
 ## Next Steps
 
-- Explore [filtering options](./filtering.md)
-- Learn about [performance features](./performance.md)
-- See [advanced features](./advanced-features.md)
+- Explore [filtering options](#doc-docs-filtering)
+- Learn about [performance features](#doc-docs-performance)
+- See [advanced features](#doc-docs-advanced-features)
+
+<a id="doc-docs-filtering"></a>
 
 Prism provides powerful filtering capabilities to run specific subsets of your test suite.
 
@@ -1519,9 +1529,11 @@ Filters are applied in this order:
 
 ## Next Steps
 
-- Explore [performance features](./performance.md)
-- Learn about [advanced features](./advanced-features.md)
-- See [output formats](./output-formats.md)
+- Explore [performance features](#doc-docs-performance)
+- Learn about [advanced features](#doc-docs-advanced-features)
+- See [output formats](#doc-docs-output-formats)
+
+<a id="doc-docs-output-formats"></a>
 
 Prism supports multiple output formats for test results, suitable for different use cases.
 
@@ -1851,9 +1863,11 @@ vendor/bin/prism test --format json | \
 
 ## Next Steps
 
-- Learn about [custom assertions](./custom-assertions.md)
-- Explore [filtering options](./filtering.md)
-- See [performance features](./performance.md)
+- Learn about [custom assertions](#doc-docs-custom-assertions)
+- Explore [filtering options](#doc-docs-filtering)
+- See [performance features](#doc-docs-performance)
+
+<a id="doc-docs-performance"></a>
 
 Prism provides comprehensive performance features for fast test execution and performance analysis.
 
@@ -2192,6 +2206,6 @@ Tests executed per second:
 
 ## Next Steps
 
-- Learn about [advanced features](./advanced-features.md)
-- Explore [output formats](./output-formats.md)
-- See [custom assertions](./custom-assertions.md)
+- Learn about [advanced features](#doc-docs-advanced-features)
+- Explore [output formats](#doc-docs-output-formats)
+- See [custom assertions](#doc-docs-custom-assertions)

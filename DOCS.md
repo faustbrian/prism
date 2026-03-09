@@ -1,12 +1,12 @@
 ## Table of Contents
 
-1. [Overview](#doc-docs-readme) (`docs/README.md`)
-2. [Advanced Features](#doc-docs-advanced-features) (`docs/advanced-features.md`)
-3. [Configuration](#doc-docs-configuration) (`docs/configuration.md`)
-4. [Custom Assertions](#doc-docs-custom-assertions) (`docs/custom-assertions.md`)
-5. [Filtering](#doc-docs-filtering) (`docs/filtering.md`)
-6. [Output Formats](#doc-docs-output-formats) (`docs/output-formats.md`)
-7. [Performance](#doc-docs-performance) (`docs/performance.md`)
+1. [Overview](#doc-docs-readme)
+2. [Advanced Features](#doc-docs-advanced-features)
+3. [Configuration](#doc-docs-configuration)
+4. [Custom Assertions](#doc-docs-custom-assertions)
+5. [Filtering](#doc-docs-filtering)
+6. [Output Formats](#doc-docs-output-formats)
+7. [Performance](#doc-docs-performance)
 <a id="doc-docs-readme"></a>
 
 Prism is a comprehensive testing CLI for PHP 8.5+ that provides a beautiful, feature-rich interface for running validation test suites with Termwind-powered output.

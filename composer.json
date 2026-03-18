@@ -20,14 +20,14 @@
         "php": "^8.5.0",
         "ext-json": "*",
         "nunomaduro/termwind": "^2.4.0",
-        "symfony/console": "^7.4.6",
-        "symfony/process": "^7.4.5",
-        "symfony/yaml": "^7.4.6"
+        "symfony/console": "^7.4.6 || ^8.0",
+        "symfony/process": "^7.4.5 || ^8.0",
+        "symfony/yaml": "^7.4.6 || ^8.0"
     },
     "require-dev": {
         "cline/coding-standard": "^2.0.1",
         "orchestra/testbench": "^10.9",
-        "symfony/var-dumper": "^7.4.6"
+        "symfony/var-dumper": "^7.4.6 || ^8.0"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
